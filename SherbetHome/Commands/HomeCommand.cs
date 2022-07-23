@@ -16,12 +16,14 @@ namespace SherbetHome.Commands
             if (!BarricadeManager.tryGetBed(context.UnturnedPlayer.CSteamID, out _, out _))
             {
                 await context.ReplyKeyAsync("Home_Fail_NoBed");
+                await context.CancelCooldownAsync();
                 return;
             }
 
             if (Plugin.HomeManager.IsHomePending(context.PlayerID))
             {
                 await context.ReplyKeyAsync("Home_Fail_AlreadyPending");
+                await context.CancelCooldownAsync();
                 return;
             }
 
