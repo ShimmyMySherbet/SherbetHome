@@ -46,8 +46,8 @@
     <Reference Include="Rocket.Unturned, Version=4.9.3.13, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ShimmyMySherbet.RocketExtensions.RocketMod.Redist.4.9.3.5\lib\net48\Rocket.Unturned.dll</HintPath>
     </Reference>
-    <Reference Include="RocketExtensions, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ShimmyMySherbet.RocketExtensions.2.1.0\lib\net48\RocketExtensions.dll</HintPath>
+    <Reference Include="RocketExtensions, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ShimmyMySherbet.RocketExtensions.2.1.2\lib\net48\RocketExtensions.dll</HintPath>
     </Reference>
     <Reference Include="SDG.NetPak.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenMod.Unturned.Redist.3.22.1\lib\net461\SDG.NetPak.Runtime.dll</HintPath>
